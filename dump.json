@@ -1,0 +1,231 @@
+[
+{
+  "model": "sessions.session",
+  "pk": "nsjvqjsj34wfk95g62r47t6ixzeih9qb",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGll24l8o6XMGa727xgHkSHFSIe5OIqWAZop5b-YtImxriVvjJU4krkKLy2-XAJ9cD0APqPdZ4lzXZUryUORJmxxn4tftdP8OCrSyr4GsBhcoB7WnRzP4HCzrrBL2jjQRQnDedh27fshoyLCmkFTOZFRA8fkC-S84pA:1mz0TX:LltwIfjupGnC7BzcG_T0L1425HvcWnWvZkepNm3HWK0",
+    "expire_date": "2022-01-02T17:59:59.702Z"
+  }
+},
+{
+  "model": "accounts.country",
+  "pk": 1,
+  "fields": {
+    "created_at": "2021-12-19T18:00:10.811Z",
+    "modified_at": "2021-12-19T18:00:10.811Z",
+    "is_active": true,
+    "name": "Pakistan"
+  }
+},
+{
+  "model": "accounts.city",
+  "pk": 1,
+  "fields": {
+    "created_at": "2021-12-19T18:00:16.243Z",
+    "modified_at": "2021-12-19T18:00:16.243Z",
+    "is_active": true,
+    "country": 1,
+    "name": "Lahore"
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$260000$vY7Ux8SlJcaCJfsR89HAio$AzqKtNmtxet7rY8YKoiUpYyByNwopVRSynskHLhRbe8=",
+    "last_login": "2021-12-19T17:59:59.356Z",
+    "is_superuser": true,
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-12-19T17:59:15.075Z",
+    "created_at": "2021-12-19T17:59:15.371Z",
+    "modified_at": "2021-12-19T17:59:15.371Z",
+    "email": "1@1.com",
+    "username": "",
+    "first_name": "",
+    "last_name": "",
+    "gender": "",
+    "age": null,
+    "country": null,
+    "city": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$260000$eK4rDoF98WhQGZud2QMjPW$/r0JSha/S5sV4gn9Zcch126HK1wJFnqX8xPXUTTMSGM=",
+    "last_login": null,
+    "is_superuser": false,
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-19T18:00:43.534Z",
+    "created_at": "2021-12-19T18:00:43.535Z",
+    "modified_at": "2021-12-19T18:12:14.526Z",
+    "email": "test_user@meistery.net",
+    "username": "test_user@meistery.net",
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "gender": "FEMALE",
+    "age": 6,
+    "country": 1,
+    "city": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sales.salesdata",
+  "pk": 1,
+  "fields": {
+    "created_at": "2021-12-19T18:10:42.683Z",
+    "modified_at": "2021-12-19T18:10:42.683Z",
+    "is_active": true,
+    "date": "2010-02-02",
+    "product": "Bulldog clip",
+    "sales_number": 5,
+    "revenue": 0.1,
+    "user_id": [
+      "test_user@meistery.net"
+    ]
+  }
+},
+{
+  "model": "sales.salesdata",
+  "pk": 3,
+  "fields": {
+    "created_at": "2021-12-19T18:10:43.355Z",
+    "modified_at": "2021-12-19T18:10:43.540Z",
+    "is_active": true,
+    "date": "2010-02-02",
+    "product": "Bulldog clip",
+    "sales_number": 500,
+    "revenue": 0.1,
+    "user_id": [
+      "test_user@meistery.net"
+    ]
+  }
+},
+{
+  "model": "sales.salesdata",
+  "pk": 4,
+  "fields": {
+    "created_at": "2021-12-19T18:10:43.710Z",
+    "modified_at": "2021-12-19T18:10:43.925Z",
+    "is_active": true,
+    "date": "2021-01-01",
+    "product": "Cat clip",
+    "sales_number": 500,
+    "revenue": 100.0,
+    "user_id": [
+      "test_user@meistery.net"
+    ]
+  }
+},
+{
+  "model": "sales.salesdata",
+  "pk": 5,
+  "fields": {
+    "created_at": "2021-12-19T18:12:10.330Z",
+    "modified_at": "2021-12-19T18:12:10.330Z",
+    "is_active": true,
+    "date": "2010-02-02",
+    "product": "Bulldog clip",
+    "sales_number": 5,
+    "revenue": 0.1,
+    "user_id": [
+      "test_user@meistery.net"
+    ]
+  }
+},
+{
+  "model": "sales.salesdata",
+  "pk": 7,
+  "fields": {
+    "created_at": "2021-12-19T18:12:10.944Z",
+    "modified_at": "2021-12-19T18:12:11.128Z",
+    "is_active": true,
+    "date": "2010-02-02",
+    "product": "Bulldog clip",
+    "sales_number": 500,
+    "revenue": 0.1,
+    "user_id": [
+      "test_user@meistery.net"
+    ]
+  }
+},
+{
+  "model": "sales.salesdata",
+  "pk": 8,
+  "fields": {
+    "created_at": "2021-12-19T18:12:11.469Z",
+    "modified_at": "2021-12-19T18:12:11.633Z",
+    "is_active": true,
+    "date": "2021-01-01",
+    "product": "Cat clip",
+    "sales_number": 500,
+    "revenue": 100.0,
+    "user_id": [
+      "test_user@meistery.net"
+    ]
+  }
+},
+{
+  "model": "sales.salesdata",
+  "pk": 9,
+  "fields": {
+    "created_at": "2021-12-19T18:12:14.971Z",
+    "modified_at": "2021-12-19T18:12:14.971Z",
+    "is_active": true,
+    "date": "2010-02-02",
+    "product": "Bulldog clip",
+    "sales_number": 5,
+    "revenue": 0.1,
+    "user_id": [
+      "test_user@meistery.net"
+    ]
+  }
+},
+{
+  "model": "sales.salesdata",
+  "pk": 11,
+  "fields": {
+    "created_at": "2021-12-19T18:12:15.619Z",
+    "modified_at": "2021-12-19T18:12:15.969Z",
+    "is_active": true,
+    "date": "2010-02-02",
+    "product": "Bulldog clip",
+    "sales_number": 500,
+    "revenue": 0.1,
+    "user_id": [
+      "test_user@meistery.net"
+    ]
+  }
+},
+{
+  "model": "sales.salesdata",
+  "pk": 12,
+  "fields": {
+    "created_at": "2021-12-19T18:12:16.172Z",
+    "modified_at": "2021-12-19T18:12:16.383Z",
+    "is_active": true,
+    "date": "2021-01-01",
+    "product": "Cat clip",
+    "sales_number": 500,
+    "revenue": 100.0,
+    "user_id": [
+      "test_user@meistery.net"
+    ]
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "6fc80f4e660263a36b1cf123fe6db20c18208a34",
+  "fields": {
+    "user": [
+      "test_user@meistery.net"
+    ],
+    "created": "2021-12-19T18:10:41.889Z"
+  }
+}
+]
